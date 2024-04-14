@@ -42,6 +42,27 @@ abortions_cdc_locationofservice <- abortions_cdc |>
 
 abortions_cdc <- bind_rows(abortions_cdc_residence, abortions_cdc_locationofservice)
 
+abortions_cdc <- abortions_cdc |> 
+  mutate(
+    "New York" = rowSums(
+      mutate_all(select(abortions_cdc, contains("New York")), as.numeric), 
+      na.rm = TRUE
+    ), 
+    `New Hampshire**` = rowSums(
+      mutate_all(select(abortions_cdc, contains("Hampshire")), as.numeric), 
+      na.rm = TRUE
+    ), 
+    `New Hampshire**` = as.character(`New Hampshire**`),
+    `New Hampshire**` = if_else(
+      `New Hampshire**` == "0", "--", `New Hampshire**`
+    )
+  ) |> 
+  select(
+    str_subset(names(abortions_cdc), "^(?!.*New York).*$"), "New York"
+  ) |> 
+  select("year", "Category", sort(tidyselect::peek_vars())) 
+
+
 write_csv(abortions_cdc, file = "data/abortions_cdc.csv")
 
 
