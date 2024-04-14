@@ -1,18 +1,868 @@
-"year","Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","District of Columbia","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Carolina","North Dakota","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"
-1988,20100,2700,22200,7860,311440,17550,24470,4570,13830,75820,35320,11120,2760,72500,20930,10480,7210,10090,17030,4140,41090,44260,62770,17400,6480,23940,2350,5490,9450,5940,66300,8180,179830,38120,1510,50780,12240,14850,53050,5800,16440,1420,20060,97450,4590,2920,40240,30890,4800,18580,1370
-1992,17720,2800,21200,8690,303850,18410,20100,4620,11040,77320,39970,12180,2420,66500,21170,7480,7140,9850,11800,4260,39490,41610,54530,15090,8830,19870,2810,4950,12400,4490,58420,7780,191100,34000,1190,46190,9080,14620,50720,5830,14410,1340,19110,94590,3800,2160,38130,33620,4460,16280,1390
-1996,14940,2310,20120,6680,237870,16670,16510,2970,5620,90160,35230,6930,2450,66920,18340,6150,6940,7890,13110,3390,36940,40150,47430,13950,9020,16050,2430,3930,14080,4670,64230,6560,164080,31070,1050,41320,8490,13540,42080,5290,12450,1200,16690,88250,3850,2050,32450,26960,3400,14980,1630
-2000,13060,1900,18410,5880,235670,12950,15460,3920,5750,96000,32270,5630,2750,58370,15140,6280,6440,6720,11380,2910,38670,29870,45710,13940,9060,17410,2220,3920,12880,4020,66110,6890,161160,33620,940,38090,7780,15270,39670,4900,12120,1020,17270,87110,3500,1510,30690,26970,2930,12450,2090
-2005,10840,2130,19710,5200,206260,14720,17340,4140,6390,85360,32040,5330,2540,48420,13180,6130,5620,6060,10330,2840,35250,27800,39930,13370,7930,14900,2020,2990,12990,3060,60330,6690,152340,29730,890,33140,7420,11900,38110,4680,13320,980,15520,84560,3610,1810,30590,23680,2700,10920,1220
-2006,10980,2060,18850,5450,213550,14990,17580,4990,5900,86980,32690,5490,2700,48560,12810,6390,5670,6080,11220,2940,31990,27130,37530,13420,7880,15070,2070,2690,13320,3030,58030,7020,148030,29970,900,32880,7450,12150,39770,4550,13590,970,15550,82540,3780,1760,31670,24350,2880,10390,1200
-2007,11130,2000,17990,5690,220840,15160,17730,5850,5400,88600,33680,5650,2860,48710,12440,6660,5720,6110,12520,3030,28720,26460,35780,13480,7850,15250,2110,2500,13630,2990,55740,7350,144390,30220,910,32620,7480,12410,42550,4420,13750,960,15590,80510,3940,1720,32750,25030,3070,9870,1170
-2008,11020,1960,19770,5710,211930,14920,17210,5650,5880,86310,39370,5650,2580,51670,12300,6160,5670,6380,14110,2970,28390,25800,36050,12580,8210,15160,2040,2850,13020,2860,54730,6730,149070,29000,1010,32370,7500,11800,46670,4340,13200,970,16210,82690,3880,1730,31360,24670,2680,9660,1060
-2009,10530,2040,17480,5630,200720,14330,16350,5520,4970,84150,37260,5590,2490,47020,12020,6010,4830,6170,12930,2830,29630,25240,33410,11780,7640,13550,2000,2630,12790,2840,51930,6420,144390,28340,1000,30760,7060,11020,44820,4100,13050,900,15290,81060,3690,1670,30950,23530,3070,9420,1030
-2010,10030,2120,15190,5490,189110,13730,15480,5380,4060,82020,35160,5530,2410,42370,11600,5860,3990,5960,11750,2640,30890,24790,30770,11120,7070,11930,1980,2410,12570,2830,49130,6110,139700,27670,980,29140,6510,10250,42250,3850,12900,840,14370,78130,3470,1600,30550,22380,3460,9140,1010
-2011,9600,2030,16270,5210,177360,13130,14630,4690,3400,79890,34460,5540,2340,42360,10710,5430,3870,5820,11310,2410,32140,24430,29270,10690,6700,11510,1990,2550,11960,2880,46670,5520,136280,25080,940,27930,5910,10020,39200,3690,11580,850,13670,72140,3240,1610,29160,21830,3320,8660,1060
-2012,8920,1890,15040,5010,170420,12400,13900,4010,3570,76730,33620,4900,2090,42020,10200,4790,3910,5500,10470,2390,29610,22840,28780,10130,6280,11080,1820,2510,10750,2610,44680,4860,126630,25960,920,26200,5830,9310,36560,3410,11440,840,13210,69520,3210,1560,29510,20470,2800,8080,940
-2013,8230,1740,13820,4810,163550,11660,13360,3340,3740,73560,32550,4260,1850,41430,9910,4150,3940,5180,9630,2380,27080,21250,28420,9570,5860,10610,1660,2440,9550,2340,43340,4190,116970,26850,900,24470,5760,8600,34580,3130,11300,830,12760,66910,3170,1490,29860,19100,2280,7510,820
-2014,8310,1640,13240,4350,156690,11760,13280,3200,3800,72630,31120,3750,1790,40120,10130,3930,3800,5180,9620,2400,26430,21280,28130,9230,5540,9180,1520,2360,10840,2530,43990,4030,117580,26410,1020,23220,5210,8760,34230,3220,10940,810,12300,56400,2960,1380,24590,19150,2280,7430,850
-2015,8150,1540,13640,3930,148000,11410,12770,3040,3330,69390,31750,3370,1780,38830,10190,3990,3660,4910,9830,2240,26010,20370,27290,9360,5300,9640,1530,2260,10150,2480,45680,4120,113350,24870,990,21980,4800,8950,34550,3290,10930,770,11770,55690,3010,1320,23290,18340,2380,7360,810
-2016,7920,1450,14040,3590,139320,11050,12260,2880,2870,66150,32390,3130,1780,37590,10240,4050,3520,4640,10040,2080,25730,19470,26460,9590,5100,10100,1540,2170,9460,2410,47370,4210,108350,23320,960,20790,4550,9140,34870,3340,10920,730,11230,55100,3050,1260,21990,17530,2490,7310,770
-2017,7660,1420,13270,3710,131380,11100,11950,2770,3930,68640,32520,3220,1790,37770,10270,3650,3520,4780,9280,2050,26940,18880,26130,10100,4930,9690,1510,2250,9620,2330,47010,3830,103060,25060,970,20560,4780,8950,33910,3280,11380,750,11060,56340,3020,1140,20290,17760,2380,7540,720
+"year","region","division","state","estimate"
+1988,"South","East South Central","Alabama",20100
+1992,"South","East South Central","Alabama",17720
+1996,"South","East South Central","Alabama",14940
+2000,"South","East South Central","Alabama",13060
+2005,"South","East South Central","Alabama",10840
+2006,"South","East South Central","Alabama",10980
+2007,"South","East South Central","Alabama",11130
+2008,"South","East South Central","Alabama",11020
+2009,"South","East South Central","Alabama",10530
+2010,"South","East South Central","Alabama",10030
+2011,"South","East South Central","Alabama",9600
+2012,"South","East South Central","Alabama",8920
+2013,"South","East South Central","Alabama",8230
+2014,"South","East South Central","Alabama",8310
+2015,"South","East South Central","Alabama",8150
+2016,"South","East South Central","Alabama",7920
+2017,"South","East South Central","Alabama",7660
+1988,"West","Pacific","Alaska",2700
+1992,"West","Pacific","Alaska",2800
+1996,"West","Pacific","Alaska",2310
+2000,"West","Pacific","Alaska",1900
+2005,"West","Pacific","Alaska",2130
+2006,"West","Pacific","Alaska",2060
+2007,"West","Pacific","Alaska",2000
+2008,"West","Pacific","Alaska",1960
+2009,"West","Pacific","Alaska",2040
+2010,"West","Pacific","Alaska",2120
+2011,"West","Pacific","Alaska",2030
+2012,"West","Pacific","Alaska",1890
+2013,"West","Pacific","Alaska",1740
+2014,"West","Pacific","Alaska",1640
+2015,"West","Pacific","Alaska",1540
+2016,"West","Pacific","Alaska",1450
+2017,"West","Pacific","Alaska",1420
+1988,"West","Mountain","Arizona",22200
+1992,"West","Mountain","Arizona",21200
+1996,"West","Mountain","Arizona",20120
+2000,"West","Mountain","Arizona",18410
+2005,"West","Mountain","Arizona",19710
+2006,"West","Mountain","Arizona",18850
+2007,"West","Mountain","Arizona",17990
+2008,"West","Mountain","Arizona",19770
+2009,"West","Mountain","Arizona",17480
+2010,"West","Mountain","Arizona",15190
+2011,"West","Mountain","Arizona",16270
+2012,"West","Mountain","Arizona",15040
+2013,"West","Mountain","Arizona",13820
+2014,"West","Mountain","Arizona",13240
+2015,"West","Mountain","Arizona",13640
+2016,"West","Mountain","Arizona",14040
+2017,"West","Mountain","Arizona",13270
+1988,"South","West South Central","Arkansas",7860
+1992,"South","West South Central","Arkansas",8690
+1996,"South","West South Central","Arkansas",6680
+2000,"South","West South Central","Arkansas",5880
+2005,"South","West South Central","Arkansas",5200
+2006,"South","West South Central","Arkansas",5450
+2007,"South","West South Central","Arkansas",5690
+2008,"South","West South Central","Arkansas",5710
+2009,"South","West South Central","Arkansas",5630
+2010,"South","West South Central","Arkansas",5490
+2011,"South","West South Central","Arkansas",5210
+2012,"South","West South Central","Arkansas",5010
+2013,"South","West South Central","Arkansas",4810
+2014,"South","West South Central","Arkansas",4350
+2015,"South","West South Central","Arkansas",3930
+2016,"South","West South Central","Arkansas",3590
+2017,"South","West South Central","Arkansas",3710
+1988,"West","Pacific","California",311440
+1992,"West","Pacific","California",303850
+1996,"West","Pacific","California",237870
+2000,"West","Pacific","California",235670
+2005,"West","Pacific","California",206260
+2006,"West","Pacific","California",213550
+2007,"West","Pacific","California",220840
+2008,"West","Pacific","California",211930
+2009,"West","Pacific","California",200720
+2010,"West","Pacific","California",189110
+2011,"West","Pacific","California",177360
+2012,"West","Pacific","California",170420
+2013,"West","Pacific","California",163550
+2014,"West","Pacific","California",156690
+2015,"West","Pacific","California",148000
+2016,"West","Pacific","California",139320
+2017,"West","Pacific","California",131380
+1988,"West","Mountain","Colorado",17550
+1992,"West","Mountain","Colorado",18410
+1996,"West","Mountain","Colorado",16670
+2000,"West","Mountain","Colorado",12950
+2005,"West","Mountain","Colorado",14720
+2006,"West","Mountain","Colorado",14990
+2007,"West","Mountain","Colorado",15160
+2008,"West","Mountain","Colorado",14920
+2009,"West","Mountain","Colorado",14330
+2010,"West","Mountain","Colorado",13730
+2011,"West","Mountain","Colorado",13130
+2012,"West","Mountain","Colorado",12400
+2013,"West","Mountain","Colorado",11660
+2014,"West","Mountain","Colorado",11760
+2015,"West","Mountain","Colorado",11410
+2016,"West","Mountain","Colorado",11050
+2017,"West","Mountain","Colorado",11100
+1988,"Northeast","New England","Connecticut",24470
+1992,"Northeast","New England","Connecticut",20100
+1996,"Northeast","New England","Connecticut",16510
+2000,"Northeast","New England","Connecticut",15460
+2005,"Northeast","New England","Connecticut",17340
+2006,"Northeast","New England","Connecticut",17580
+2007,"Northeast","New England","Connecticut",17730
+2008,"Northeast","New England","Connecticut",17210
+2009,"Northeast","New England","Connecticut",16350
+2010,"Northeast","New England","Connecticut",15480
+2011,"Northeast","New England","Connecticut",14630
+2012,"Northeast","New England","Connecticut",13900
+2013,"Northeast","New England","Connecticut",13360
+2014,"Northeast","New England","Connecticut",13280
+2015,"Northeast","New England","Connecticut",12770
+2016,"Northeast","New England","Connecticut",12260
+2017,"Northeast","New England","Connecticut",11950
+1988,"South","South Atlantic","Delaware",4570
+1992,"South","South Atlantic","Delaware",4620
+1996,"South","South Atlantic","Delaware",2970
+2000,"South","South Atlantic","Delaware",3920
+2005,"South","South Atlantic","Delaware",4140
+2006,"South","South Atlantic","Delaware",4990
+2007,"South","South Atlantic","Delaware",5850
+2008,"South","South Atlantic","Delaware",5650
+2009,"South","South Atlantic","Delaware",5520
+2010,"South","South Atlantic","Delaware",5380
+2011,"South","South Atlantic","Delaware",4690
+2012,"South","South Atlantic","Delaware",4010
+2013,"South","South Atlantic","Delaware",3340
+2014,"South","South Atlantic","Delaware",3200
+2015,"South","South Atlantic","Delaware",3040
+2016,"South","South Atlantic","Delaware",2880
+2017,"South","South Atlantic","Delaware",2770
+1988,"South","South Atlantic","District of Columbia",13830
+1992,"South","South Atlantic","District of Columbia",11040
+1996,"South","South Atlantic","District of Columbia",5620
+2000,"South","South Atlantic","District of Columbia",5750
+2005,"South","South Atlantic","District of Columbia",6390
+2006,"South","South Atlantic","District of Columbia",5900
+2007,"South","South Atlantic","District of Columbia",5400
+2008,"South","South Atlantic","District of Columbia",5880
+2009,"South","South Atlantic","District of Columbia",4970
+2010,"South","South Atlantic","District of Columbia",4060
+2011,"South","South Atlantic","District of Columbia",3400
+2012,"South","South Atlantic","District of Columbia",3570
+2013,"South","South Atlantic","District of Columbia",3740
+2014,"South","South Atlantic","District of Columbia",3800
+2015,"South","South Atlantic","District of Columbia",3330
+2016,"South","South Atlantic","District of Columbia",2870
+2017,"South","South Atlantic","District of Columbia",3930
+1988,"South","South Atlantic","Florida",75820
+1992,"South","South Atlantic","Florida",77320
+1996,"South","South Atlantic","Florida",90160
+2000,"South","South Atlantic","Florida",96000
+2005,"South","South Atlantic","Florida",85360
+2006,"South","South Atlantic","Florida",86980
+2007,"South","South Atlantic","Florida",88600
+2008,"South","South Atlantic","Florida",86310
+2009,"South","South Atlantic","Florida",84150
+2010,"South","South Atlantic","Florida",82020
+2011,"South","South Atlantic","Florida",79890
+2012,"South","South Atlantic","Florida",76730
+2013,"South","South Atlantic","Florida",73560
+2014,"South","South Atlantic","Florida",72630
+2015,"South","South Atlantic","Florida",69390
+2016,"South","South Atlantic","Florida",66150
+2017,"South","South Atlantic","Florida",68640
+1988,"South","South Atlantic","Georgia",35320
+1992,"South","South Atlantic","Georgia",39970
+1996,"South","South Atlantic","Georgia",35230
+2000,"South","South Atlantic","Georgia",32270
+2005,"South","South Atlantic","Georgia",32040
+2006,"South","South Atlantic","Georgia",32690
+2007,"South","South Atlantic","Georgia",33680
+2008,"South","South Atlantic","Georgia",39370
+2009,"South","South Atlantic","Georgia",37260
+2010,"South","South Atlantic","Georgia",35160
+2011,"South","South Atlantic","Georgia",34460
+2012,"South","South Atlantic","Georgia",33620
+2013,"South","South Atlantic","Georgia",32550
+2014,"South","South Atlantic","Georgia",31120
+2015,"South","South Atlantic","Georgia",31750
+2016,"South","South Atlantic","Georgia",32390
+2017,"South","South Atlantic","Georgia",32520
+1988,"West","Pacific","Hawaii",11120
+1992,"West","Pacific","Hawaii",12180
+1996,"West","Pacific","Hawaii",6930
+2000,"West","Pacific","Hawaii",5630
+2005,"West","Pacific","Hawaii",5330
+2006,"West","Pacific","Hawaii",5490
+2007,"West","Pacific","Hawaii",5650
+2008,"West","Pacific","Hawaii",5650
+2009,"West","Pacific","Hawaii",5590
+2010,"West","Pacific","Hawaii",5530
+2011,"West","Pacific","Hawaii",5540
+2012,"West","Pacific","Hawaii",4900
+2013,"West","Pacific","Hawaii",4260
+2014,"West","Pacific","Hawaii",3750
+2015,"West","Pacific","Hawaii",3370
+2016,"West","Pacific","Hawaii",3130
+2017,"West","Pacific","Hawaii",3220
+1988,"West","Mountain","Idaho",2760
+1992,"West","Mountain","Idaho",2420
+1996,"West","Mountain","Idaho",2450
+2000,"West","Mountain","Idaho",2750
+2005,"West","Mountain","Idaho",2540
+2006,"West","Mountain","Idaho",2700
+2007,"West","Mountain","Idaho",2860
+2008,"West","Mountain","Idaho",2580
+2009,"West","Mountain","Idaho",2490
+2010,"West","Mountain","Idaho",2410
+2011,"West","Mountain","Idaho",2340
+2012,"West","Mountain","Idaho",2090
+2013,"West","Mountain","Idaho",1850
+2014,"West","Mountain","Idaho",1790
+2015,"West","Mountain","Idaho",1780
+2016,"West","Mountain","Idaho",1780
+2017,"West","Mountain","Idaho",1790
+1988,"Midwest","East North Central","Illinois",72500
+1992,"Midwest","East North Central","Illinois",66500
+1996,"Midwest","East North Central","Illinois",66920
+2000,"Midwest","East North Central","Illinois",58370
+2005,"Midwest","East North Central","Illinois",48420
+2006,"Midwest","East North Central","Illinois",48560
+2007,"Midwest","East North Central","Illinois",48710
+2008,"Midwest","East North Central","Illinois",51670
+2009,"Midwest","East North Central","Illinois",47020
+2010,"Midwest","East North Central","Illinois",42370
+2011,"Midwest","East North Central","Illinois",42360
+2012,"Midwest","East North Central","Illinois",42020
+2013,"Midwest","East North Central","Illinois",41430
+2014,"Midwest","East North Central","Illinois",40120
+2015,"Midwest","East North Central","Illinois",38830
+2016,"Midwest","East North Central","Illinois",37590
+2017,"Midwest","East North Central","Illinois",37770
+1988,"Midwest","East North Central","Indiana",20930
+1992,"Midwest","East North Central","Indiana",21170
+1996,"Midwest","East North Central","Indiana",18340
+2000,"Midwest","East North Central","Indiana",15140
+2005,"Midwest","East North Central","Indiana",13180
+2006,"Midwest","East North Central","Indiana",12810
+2007,"Midwest","East North Central","Indiana",12440
+2008,"Midwest","East North Central","Indiana",12300
+2009,"Midwest","East North Central","Indiana",12020
+2010,"Midwest","East North Central","Indiana",11600
+2011,"Midwest","East North Central","Indiana",10710
+2012,"Midwest","East North Central","Indiana",10200
+2013,"Midwest","East North Central","Indiana",9910
+2014,"Midwest","East North Central","Indiana",10130
+2015,"Midwest","East North Central","Indiana",10190
+2016,"Midwest","East North Central","Indiana",10240
+2017,"Midwest","East North Central","Indiana",10270
+1988,"Midwest","West North Central","Iowa",10480
+1992,"Midwest","West North Central","Iowa",7480
+1996,"Midwest","West North Central","Iowa",6150
+2000,"Midwest","West North Central","Iowa",6280
+2005,"Midwest","West North Central","Iowa",6130
+2006,"Midwest","West North Central","Iowa",6390
+2007,"Midwest","West North Central","Iowa",6660
+2008,"Midwest","West North Central","Iowa",6160
+2009,"Midwest","West North Central","Iowa",6010
+2010,"Midwest","West North Central","Iowa",5860
+2011,"Midwest","West North Central","Iowa",5430
+2012,"Midwest","West North Central","Iowa",4790
+2013,"Midwest","West North Central","Iowa",4150
+2014,"Midwest","West North Central","Iowa",3930
+2015,"Midwest","West North Central","Iowa",3990
+2016,"Midwest","West North Central","Iowa",4050
+2017,"Midwest","West North Central","Iowa",3650
+1988,"Midwest","West North Central","Kansas",7210
+1992,"Midwest","West North Central","Kansas",7140
+1996,"Midwest","West North Central","Kansas",6940
+2000,"Midwest","West North Central","Kansas",6440
+2005,"Midwest","West North Central","Kansas",5620
+2006,"Midwest","West North Central","Kansas",5670
+2007,"Midwest","West North Central","Kansas",5720
+2008,"Midwest","West North Central","Kansas",5670
+2009,"Midwest","West North Central","Kansas",4830
+2010,"Midwest","West North Central","Kansas",3990
+2011,"Midwest","West North Central","Kansas",3870
+2012,"Midwest","West North Central","Kansas",3910
+2013,"Midwest","West North Central","Kansas",3940
+2014,"Midwest","West North Central","Kansas",3800
+2015,"Midwest","West North Central","Kansas",3660
+2016,"Midwest","West North Central","Kansas",3520
+2017,"Midwest","West North Central","Kansas",3520
+1988,"South","East South Central","Kentucky",10090
+1992,"South","East South Central","Kentucky",9850
+1996,"South","East South Central","Kentucky",7890
+2000,"South","East South Central","Kentucky",6720
+2005,"South","East South Central","Kentucky",6060
+2006,"South","East South Central","Kentucky",6080
+2007,"South","East South Central","Kentucky",6110
+2008,"South","East South Central","Kentucky",6380
+2009,"South","East South Central","Kentucky",6170
+2010,"South","East South Central","Kentucky",5960
+2011,"South","East South Central","Kentucky",5820
+2012,"South","East South Central","Kentucky",5500
+2013,"South","East South Central","Kentucky",5180
+2014,"South","East South Central","Kentucky",5180
+2015,"South","East South Central","Kentucky",4910
+2016,"South","East South Central","Kentucky",4640
+2017,"South","East South Central","Kentucky",4780
+1988,"South","West South Central","Louisiana",17030
+1992,"South","West South Central","Louisiana",11800
+1996,"South","West South Central","Louisiana",13110
+2000,"South","West South Central","Louisiana",11380
+2005,"South","West South Central","Louisiana",10330
+2006,"South","West South Central","Louisiana",11220
+2007,"South","West South Central","Louisiana",12520
+2008,"South","West South Central","Louisiana",14110
+2009,"South","West South Central","Louisiana",12930
+2010,"South","West South Central","Louisiana",11750
+2011,"South","West South Central","Louisiana",11310
+2012,"South","West South Central","Louisiana",10470
+2013,"South","West South Central","Louisiana",9630
+2014,"South","West South Central","Louisiana",9620
+2015,"South","West South Central","Louisiana",9830
+2016,"South","West South Central","Louisiana",10040
+2017,"South","West South Central","Louisiana",9280
+1988,"Northeast","New England","Maine",4140
+1992,"Northeast","New England","Maine",4260
+1996,"Northeast","New England","Maine",3390
+2000,"Northeast","New England","Maine",2910
+2005,"Northeast","New England","Maine",2840
+2006,"Northeast","New England","Maine",2940
+2007,"Northeast","New England","Maine",3030
+2008,"Northeast","New England","Maine",2970
+2009,"Northeast","New England","Maine",2830
+2010,"Northeast","New England","Maine",2640
+2011,"Northeast","New England","Maine",2410
+2012,"Northeast","New England","Maine",2390
+2013,"Northeast","New England","Maine",2380
+2014,"Northeast","New England","Maine",2400
+2015,"Northeast","New England","Maine",2240
+2016,"Northeast","New England","Maine",2080
+2017,"Northeast","New England","Maine",2050
+1988,"South","South Atlantic","Maryland",41090
+1992,"South","South Atlantic","Maryland",39490
+1996,"South","South Atlantic","Maryland",36940
+2000,"South","South Atlantic","Maryland",38670
+2005,"South","South Atlantic","Maryland",35250
+2006,"South","South Atlantic","Maryland",31990
+2007,"South","South Atlantic","Maryland",28720
+2008,"South","South Atlantic","Maryland",28390
+2009,"South","South Atlantic","Maryland",29630
+2010,"South","South Atlantic","Maryland",30890
+2011,"South","South Atlantic","Maryland",32140
+2012,"South","South Atlantic","Maryland",29610
+2013,"South","South Atlantic","Maryland",27080
+2014,"South","South Atlantic","Maryland",26430
+2015,"South","South Atlantic","Maryland",26010
+2016,"South","South Atlantic","Maryland",25730
+2017,"South","South Atlantic","Maryland",26940
+1988,"Northeast","New England","Massachusetts",44260
+1992,"Northeast","New England","Massachusetts",41610
+1996,"Northeast","New England","Massachusetts",40150
+2000,"Northeast","New England","Massachusetts",29870
+2005,"Northeast","New England","Massachusetts",27800
+2006,"Northeast","New England","Massachusetts",27130
+2007,"Northeast","New England","Massachusetts",26460
+2008,"Northeast","New England","Massachusetts",25800
+2009,"Northeast","New England","Massachusetts",25240
+2010,"Northeast","New England","Massachusetts",24790
+2011,"Northeast","New England","Massachusetts",24430
+2012,"Northeast","New England","Massachusetts",22840
+2013,"Northeast","New England","Massachusetts",21250
+2014,"Northeast","New England","Massachusetts",21280
+2015,"Northeast","New England","Massachusetts",20370
+2016,"Northeast","New England","Massachusetts",19470
+2017,"Northeast","New England","Massachusetts",18880
+1988,"Midwest","East North Central","Michigan",62770
+1992,"Midwest","East North Central","Michigan",54530
+1996,"Midwest","East North Central","Michigan",47430
+2000,"Midwest","East North Central","Michigan",45710
+2005,"Midwest","East North Central","Michigan",39930
+2006,"Midwest","East North Central","Michigan",37530
+2007,"Midwest","East North Central","Michigan",35780
+2008,"Midwest","East North Central","Michigan",36050
+2009,"Midwest","East North Central","Michigan",33410
+2010,"Midwest","East North Central","Michigan",30770
+2011,"Midwest","East North Central","Michigan",29270
+2012,"Midwest","East North Central","Michigan",28780
+2013,"Midwest","East North Central","Michigan",28420
+2014,"Midwest","East North Central","Michigan",28130
+2015,"Midwest","East North Central","Michigan",27290
+2016,"Midwest","East North Central","Michigan",26460
+2017,"Midwest","East North Central","Michigan",26130
+1988,"Midwest","West North Central","Minnesota",17400
+1992,"Midwest","West North Central","Minnesota",15090
+1996,"Midwest","West North Central","Minnesota",13950
+2000,"Midwest","West North Central","Minnesota",13940
+2005,"Midwest","West North Central","Minnesota",13370
+2006,"Midwest","West North Central","Minnesota",13420
+2007,"Midwest","West North Central","Minnesota",13480
+2008,"Midwest","West North Central","Minnesota",12580
+2009,"Midwest","West North Central","Minnesota",11780
+2010,"Midwest","West North Central","Minnesota",11120
+2011,"Midwest","West North Central","Minnesota",10690
+2012,"Midwest","West North Central","Minnesota",10130
+2013,"Midwest","West North Central","Minnesota",9570
+2014,"Midwest","West North Central","Minnesota",9230
+2015,"Midwest","West North Central","Minnesota",9360
+2016,"Midwest","West North Central","Minnesota",9590
+2017,"Midwest","West North Central","Minnesota",10100
+1988,"South","East South Central","Mississippi",6480
+1992,"South","East South Central","Mississippi",8830
+1996,"South","East South Central","Mississippi",9020
+2000,"South","East South Central","Mississippi",9060
+2005,"South","East South Central","Mississippi",7930
+2006,"South","East South Central","Mississippi",7880
+2007,"South","East South Central","Mississippi",7850
+2008,"South","East South Central","Mississippi",8210
+2009,"South","East South Central","Mississippi",7640
+2010,"South","East South Central","Mississippi",7070
+2011,"South","East South Central","Mississippi",6700
+2012,"South","East South Central","Mississippi",6280
+2013,"South","East South Central","Mississippi",5860
+2014,"South","East South Central","Mississippi",5540
+2015,"South","East South Central","Mississippi",5300
+2016,"South","East South Central","Mississippi",5100
+2017,"South","East South Central","Mississippi",4930
+1988,"Midwest","West North Central","Missouri",23940
+1992,"Midwest","West North Central","Missouri",19870
+1996,"Midwest","West North Central","Missouri",16050
+2000,"Midwest","West North Central","Missouri",17410
+2005,"Midwest","West North Central","Missouri",14900
+2006,"Midwest","West North Central","Missouri",15070
+2007,"Midwest","West North Central","Missouri",15250
+2008,"Midwest","West North Central","Missouri",15160
+2009,"Midwest","West North Central","Missouri",13550
+2010,"Midwest","West North Central","Missouri",11930
+2011,"Midwest","West North Central","Missouri",11510
+2012,"Midwest","West North Central","Missouri",11080
+2013,"Midwest","West North Central","Missouri",10610
+2014,"Midwest","West North Central","Missouri",9180
+2015,"Midwest","West North Central","Missouri",9640
+2016,"Midwest","West North Central","Missouri",10100
+2017,"Midwest","West North Central","Missouri",9690
+1988,"West","Mountain","Montana",2350
+1992,"West","Mountain","Montana",2810
+1996,"West","Mountain","Montana",2430
+2000,"West","Mountain","Montana",2220
+2005,"West","Mountain","Montana",2020
+2006,"West","Mountain","Montana",2070
+2007,"West","Mountain","Montana",2110
+2008,"West","Mountain","Montana",2040
+2009,"West","Mountain","Montana",2000
+2010,"West","Mountain","Montana",1980
+2011,"West","Mountain","Montana",1990
+2012,"West","Mountain","Montana",1820
+2013,"West","Mountain","Montana",1660
+2014,"West","Mountain","Montana",1520
+2015,"West","Mountain","Montana",1530
+2016,"West","Mountain","Montana",1540
+2017,"West","Mountain","Montana",1510
+1988,"Midwest","West North Central","Nebraska",5490
+1992,"Midwest","West North Central","Nebraska",4950
+1996,"Midwest","West North Central","Nebraska",3930
+2000,"Midwest","West North Central","Nebraska",3920
+2005,"Midwest","West North Central","Nebraska",2990
+2006,"Midwest","West North Central","Nebraska",2690
+2007,"Midwest","West North Central","Nebraska",2500
+2008,"Midwest","West North Central","Nebraska",2850
+2009,"Midwest","West North Central","Nebraska",2630
+2010,"Midwest","West North Central","Nebraska",2410
+2011,"Midwest","West North Central","Nebraska",2550
+2012,"Midwest","West North Central","Nebraska",2510
+2013,"Midwest","West North Central","Nebraska",2440
+2014,"Midwest","West North Central","Nebraska",2360
+2015,"Midwest","West North Central","Nebraska",2260
+2016,"Midwest","West North Central","Nebraska",2170
+2017,"Midwest","West North Central","Nebraska",2250
+1988,"West","Mountain","Nevada",9450
+1992,"West","Mountain","Nevada",12400
+1996,"West","Mountain","Nevada",14080
+2000,"West","Mountain","Nevada",12880
+2005,"West","Mountain","Nevada",12990
+2006,"West","Mountain","Nevada",13320
+2007,"West","Mountain","Nevada",13630
+2008,"West","Mountain","Nevada",13020
+2009,"West","Mountain","Nevada",12790
+2010,"West","Mountain","Nevada",12570
+2011,"West","Mountain","Nevada",11960
+2012,"West","Mountain","Nevada",10750
+2013,"West","Mountain","Nevada",9550
+2014,"West","Mountain","Nevada",10840
+2015,"West","Mountain","Nevada",10150
+2016,"West","Mountain","Nevada",9460
+2017,"West","Mountain","Nevada",9620
+1988,"Northeast","New England","New Hampshire",5940
+1992,"Northeast","New England","New Hampshire",4490
+1996,"Northeast","New England","New Hampshire",4670
+2000,"Northeast","New England","New Hampshire",4020
+2005,"Northeast","New England","New Hampshire",3060
+2006,"Northeast","New England","New Hampshire",3030
+2007,"Northeast","New England","New Hampshire",2990
+2008,"Northeast","New England","New Hampshire",2860
+2009,"Northeast","New England","New Hampshire",2840
+2010,"Northeast","New England","New Hampshire",2830
+2011,"Northeast","New England","New Hampshire",2880
+2012,"Northeast","New England","New Hampshire",2610
+2013,"Northeast","New England","New Hampshire",2340
+2014,"Northeast","New England","New Hampshire",2530
+2015,"Northeast","New England","New Hampshire",2480
+2016,"Northeast","New England","New Hampshire",2410
+2017,"Northeast","New England","New Hampshire",2330
+1988,"Northeast","Middle Atlantic","New Jersey",66300
+1992,"Northeast","Middle Atlantic","New Jersey",58420
+1996,"Northeast","Middle Atlantic","New Jersey",64230
+2000,"Northeast","Middle Atlantic","New Jersey",66110
+2005,"Northeast","Middle Atlantic","New Jersey",60330
+2006,"Northeast","Middle Atlantic","New Jersey",58030
+2007,"Northeast","Middle Atlantic","New Jersey",55740
+2008,"Northeast","Middle Atlantic","New Jersey",54730
+2009,"Northeast","Middle Atlantic","New Jersey",51930
+2010,"Northeast","Middle Atlantic","New Jersey",49130
+2011,"Northeast","Middle Atlantic","New Jersey",46670
+2012,"Northeast","Middle Atlantic","New Jersey",44680
+2013,"Northeast","Middle Atlantic","New Jersey",43340
+2014,"Northeast","Middle Atlantic","New Jersey",43990
+2015,"Northeast","Middle Atlantic","New Jersey",45680
+2016,"Northeast","Middle Atlantic","New Jersey",47370
+2017,"Northeast","Middle Atlantic","New Jersey",47010
+1988,"West","Mountain","New Mexico",8180
+1992,"West","Mountain","New Mexico",7780
+1996,"West","Mountain","New Mexico",6560
+2000,"West","Mountain","New Mexico",6890
+2005,"West","Mountain","New Mexico",6690
+2006,"West","Mountain","New Mexico",7020
+2007,"West","Mountain","New Mexico",7350
+2008,"West","Mountain","New Mexico",6730
+2009,"West","Mountain","New Mexico",6420
+2010,"West","Mountain","New Mexico",6110
+2011,"West","Mountain","New Mexico",5520
+2012,"West","Mountain","New Mexico",4860
+2013,"West","Mountain","New Mexico",4190
+2014,"West","Mountain","New Mexico",4030
+2015,"West","Mountain","New Mexico",4120
+2016,"West","Mountain","New Mexico",4210
+2017,"West","Mountain","New Mexico",3830
+1988,"Northeast","Middle Atlantic","New York",179830
+1992,"Northeast","Middle Atlantic","New York",191100
+1996,"Northeast","Middle Atlantic","New York",164080
+2000,"Northeast","Middle Atlantic","New York",161160
+2005,"Northeast","Middle Atlantic","New York",152340
+2006,"Northeast","Middle Atlantic","New York",148030
+2007,"Northeast","Middle Atlantic","New York",144390
+2008,"Northeast","Middle Atlantic","New York",149070
+2009,"Northeast","Middle Atlantic","New York",144390
+2010,"Northeast","Middle Atlantic","New York",139700
+2011,"Northeast","Middle Atlantic","New York",136280
+2012,"Northeast","Middle Atlantic","New York",126630
+2013,"Northeast","Middle Atlantic","New York",116970
+2014,"Northeast","Middle Atlantic","New York",117580
+2015,"Northeast","Middle Atlantic","New York",113350
+2016,"Northeast","Middle Atlantic","New York",108350
+2017,"Northeast","Middle Atlantic","New York",103060
+1988,"South","South Atlantic","North Carolina",38120
+1992,"South","South Atlantic","North Carolina",34000
+1996,"South","South Atlantic","North Carolina",31070
+2000,"South","South Atlantic","North Carolina",33620
+2005,"South","South Atlantic","North Carolina",29730
+2006,"South","South Atlantic","North Carolina",29970
+2007,"South","South Atlantic","North Carolina",30220
+2008,"South","South Atlantic","North Carolina",29000
+2009,"South","South Atlantic","North Carolina",28340
+2010,"South","South Atlantic","North Carolina",27670
+2011,"South","South Atlantic","North Carolina",25080
+2012,"South","South Atlantic","North Carolina",25960
+2013,"South","South Atlantic","North Carolina",26850
+2014,"South","South Atlantic","North Carolina",26410
+2015,"South","South Atlantic","North Carolina",24870
+2016,"South","South Atlantic","North Carolina",23320
+2017,"South","South Atlantic","North Carolina",25060
+1988,"Midwest","West North Central","North Dakota",1510
+1992,"Midwest","West North Central","North Dakota",1190
+1996,"Midwest","West North Central","North Dakota",1050
+2000,"Midwest","West North Central","North Dakota",940
+2005,"Midwest","West North Central","North Dakota",890
+2006,"Midwest","West North Central","North Dakota",900
+2007,"Midwest","West North Central","North Dakota",910
+2008,"Midwest","West North Central","North Dakota",1010
+2009,"Midwest","West North Central","North Dakota",1000
+2010,"Midwest","West North Central","North Dakota",980
+2011,"Midwest","West North Central","North Dakota",940
+2012,"Midwest","West North Central","North Dakota",920
+2013,"Midwest","West North Central","North Dakota",900
+2014,"Midwest","West North Central","North Dakota",1020
+2015,"Midwest","West North Central","North Dakota",990
+2016,"Midwest","West North Central","North Dakota",960
+2017,"Midwest","West North Central","North Dakota",970
+1988,"Midwest","East North Central","Ohio",50780
+1992,"Midwest","East North Central","Ohio",46190
+1996,"Midwest","East North Central","Ohio",41320
+2000,"Midwest","East North Central","Ohio",38090
+2005,"Midwest","East North Central","Ohio",33140
+2006,"Midwest","East North Central","Ohio",32880
+2007,"Midwest","East North Central","Ohio",32620
+2008,"Midwest","East North Central","Ohio",32370
+2009,"Midwest","East North Central","Ohio",30760
+2010,"Midwest","East North Central","Ohio",29140
+2011,"Midwest","East North Central","Ohio",27930
+2012,"Midwest","East North Central","Ohio",26200
+2013,"Midwest","East North Central","Ohio",24470
+2014,"Midwest","East North Central","Ohio",23220
+2015,"Midwest","East North Central","Ohio",21980
+2016,"Midwest","East North Central","Ohio",20790
+2017,"Midwest","East North Central","Ohio",20560
+1988,"South","West South Central","Oklahoma",12240
+1992,"South","West South Central","Oklahoma",9080
+1996,"South","West South Central","Oklahoma",8490
+2000,"South","West South Central","Oklahoma",7780
+2005,"South","West South Central","Oklahoma",7420
+2006,"South","West South Central","Oklahoma",7450
+2007,"South","West South Central","Oklahoma",7480
+2008,"South","West South Central","Oklahoma",7500
+2009,"South","West South Central","Oklahoma",7060
+2010,"South","West South Central","Oklahoma",6510
+2011,"South","West South Central","Oklahoma",5910
+2012,"South","West South Central","Oklahoma",5830
+2013,"South","West South Central","Oklahoma",5760
+2014,"South","West South Central","Oklahoma",5210
+2015,"South","West South Central","Oklahoma",4800
+2016,"South","West South Central","Oklahoma",4550
+2017,"South","West South Central","Oklahoma",4780
+1988,"West","Pacific","Oregon",14850
+1992,"West","Pacific","Oregon",14620
+1996,"West","Pacific","Oregon",13540
+2000,"West","Pacific","Oregon",15270
+2005,"West","Pacific","Oregon",11900
+2006,"West","Pacific","Oregon",12150
+2007,"West","Pacific","Oregon",12410
+2008,"West","Pacific","Oregon",11800
+2009,"West","Pacific","Oregon",11020
+2010,"West","Pacific","Oregon",10250
+2011,"West","Pacific","Oregon",10020
+2012,"West","Pacific","Oregon",9310
+2013,"West","Pacific","Oregon",8600
+2014,"West","Pacific","Oregon",8760
+2015,"West","Pacific","Oregon",8950
+2016,"West","Pacific","Oregon",9140
+2017,"West","Pacific","Oregon",8950
+1988,"Northeast","Middle Atlantic","Pennsylvania",53050
+1992,"Northeast","Middle Atlantic","Pennsylvania",50720
+1996,"Northeast","Middle Atlantic","Pennsylvania",42080
+2000,"Northeast","Middle Atlantic","Pennsylvania",39670
+2005,"Northeast","Middle Atlantic","Pennsylvania",38110
+2006,"Northeast","Middle Atlantic","Pennsylvania",39770
+2007,"Northeast","Middle Atlantic","Pennsylvania",42550
+2008,"Northeast","Middle Atlantic","Pennsylvania",46670
+2009,"Northeast","Middle Atlantic","Pennsylvania",44820
+2010,"Northeast","Middle Atlantic","Pennsylvania",42250
+2011,"Northeast","Middle Atlantic","Pennsylvania",39200
+2012,"Northeast","Middle Atlantic","Pennsylvania",36560
+2013,"Northeast","Middle Atlantic","Pennsylvania",34580
+2014,"Northeast","Middle Atlantic","Pennsylvania",34230
+2015,"Northeast","Middle Atlantic","Pennsylvania",34550
+2016,"Northeast","Middle Atlantic","Pennsylvania",34870
+2017,"Northeast","Middle Atlantic","Pennsylvania",33910
+1988,"Northeast","New England","Rhode Island",5800
+1992,"Northeast","New England","Rhode Island",5830
+1996,"Northeast","New England","Rhode Island",5290
+2000,"Northeast","New England","Rhode Island",4900
+2005,"Northeast","New England","Rhode Island",4680
+2006,"Northeast","New England","Rhode Island",4550
+2007,"Northeast","New England","Rhode Island",4420
+2008,"Northeast","New England","Rhode Island",4340
+2009,"Northeast","New England","Rhode Island",4100
+2010,"Northeast","New England","Rhode Island",3850
+2011,"Northeast","New England","Rhode Island",3690
+2012,"Northeast","New England","Rhode Island",3410
+2013,"Northeast","New England","Rhode Island",3130
+2014,"Northeast","New England","Rhode Island",3220
+2015,"Northeast","New England","Rhode Island",3290
+2016,"Northeast","New England","Rhode Island",3340
+2017,"Northeast","New England","Rhode Island",3280
+1988,"South","South Atlantic","South Carolina",16440
+1992,"South","South Atlantic","South Carolina",14410
+1996,"South","South Atlantic","South Carolina",12450
+2000,"South","South Atlantic","South Carolina",12120
+2005,"South","South Atlantic","South Carolina",13320
+2006,"South","South Atlantic","South Carolina",13590
+2007,"South","South Atlantic","South Carolina",13750
+2008,"South","South Atlantic","South Carolina",13200
+2009,"South","South Atlantic","South Carolina",13050
+2010,"South","South Atlantic","South Carolina",12900
+2011,"South","South Atlantic","South Carolina",11580
+2012,"South","South Atlantic","South Carolina",11440
+2013,"South","South Atlantic","South Carolina",11300
+2014,"South","South Atlantic","South Carolina",10940
+2015,"South","South Atlantic","South Carolina",10930
+2016,"South","South Atlantic","South Carolina",10920
+2017,"South","South Atlantic","South Carolina",11380
+1988,"Midwest","West North Central","South Dakota",1420
+1992,"Midwest","West North Central","South Dakota",1340
+1996,"Midwest","West North Central","South Dakota",1200
+2000,"Midwest","West North Central","South Dakota",1020
+2005,"Midwest","West North Central","South Dakota",980
+2006,"Midwest","West North Central","South Dakota",970
+2007,"Midwest","West North Central","South Dakota",960
+2008,"Midwest","West North Central","South Dakota",970
+2009,"Midwest","West North Central","South Dakota",900
+2010,"Midwest","West North Central","South Dakota",840
+2011,"Midwest","West North Central","South Dakota",850
+2012,"Midwest","West North Central","South Dakota",840
+2013,"Midwest","West North Central","South Dakota",830
+2014,"Midwest","West North Central","South Dakota",810
+2015,"Midwest","West North Central","South Dakota",770
+2016,"Midwest","West North Central","South Dakota",730
+2017,"Midwest","West North Central","South Dakota",750
+1988,"South","East South Central","Tennessee",20060
+1992,"South","East South Central","Tennessee",19110
+1996,"South","East South Central","Tennessee",16690
+2000,"South","East South Central","Tennessee",17270
+2005,"South","East South Central","Tennessee",15520
+2006,"South","East South Central","Tennessee",15550
+2007,"South","East South Central","Tennessee",15590
+2008,"South","East South Central","Tennessee",16210
+2009,"South","East South Central","Tennessee",15290
+2010,"South","East South Central","Tennessee",14370
+2011,"South","East South Central","Tennessee",13670
+2012,"South","East South Central","Tennessee",13210
+2013,"South","East South Central","Tennessee",12760
+2014,"South","East South Central","Tennessee",12300
+2015,"South","East South Central","Tennessee",11770
+2016,"South","East South Central","Tennessee",11230
+2017,"South","East South Central","Tennessee",11060
+1988,"South","West South Central","Texas",97450
+1992,"South","West South Central","Texas",94590
+1996,"South","West South Central","Texas",88250
+2000,"South","West South Central","Texas",87110
+2005,"South","West South Central","Texas",84560
+2006,"South","West South Central","Texas",82540
+2007,"South","West South Central","Texas",80510
+2008,"South","West South Central","Texas",82690
+2009,"South","West South Central","Texas",81060
+2010,"South","West South Central","Texas",78130
+2011,"South","West South Central","Texas",72140
+2012,"South","West South Central","Texas",69520
+2013,"South","West South Central","Texas",66910
+2014,"South","West South Central","Texas",56400
+2015,"South","West South Central","Texas",55690
+2016,"South","West South Central","Texas",55100
+2017,"South","West South Central","Texas",56340
+1988,"West","Mountain","Utah",4590
+1992,"West","Mountain","Utah",3800
+1996,"West","Mountain","Utah",3850
+2000,"West","Mountain","Utah",3500
+2005,"West","Mountain","Utah",3610
+2006,"West","Mountain","Utah",3780
+2007,"West","Mountain","Utah",3940
+2008,"West","Mountain","Utah",3880
+2009,"West","Mountain","Utah",3690
+2010,"West","Mountain","Utah",3470
+2011,"West","Mountain","Utah",3240
+2012,"West","Mountain","Utah",3210
+2013,"West","Mountain","Utah",3170
+2014,"West","Mountain","Utah",2960
+2015,"West","Mountain","Utah",3010
+2016,"West","Mountain","Utah",3050
+2017,"West","Mountain","Utah",3020
+1988,"Northeast","New England","Vermont",2920
+1992,"Northeast","New England","Vermont",2160
+1996,"Northeast","New England","Vermont",2050
+2000,"Northeast","New England","Vermont",1510
+2005,"Northeast","New England","Vermont",1810
+2006,"Northeast","New England","Vermont",1760
+2007,"Northeast","New England","Vermont",1720
+2008,"Northeast","New England","Vermont",1730
+2009,"Northeast","New England","Vermont",1670
+2010,"Northeast","New England","Vermont",1600
+2011,"Northeast","New England","Vermont",1610
+2012,"Northeast","New England","Vermont",1560
+2013,"Northeast","New England","Vermont",1490
+2014,"Northeast","New England","Vermont",1380
+2015,"Northeast","New England","Vermont",1320
+2016,"Northeast","New England","Vermont",1260
+2017,"Northeast","New England","Vermont",1140
+1988,"South","South Atlantic","Virginia",40240
+1992,"South","South Atlantic","Virginia",38130
+1996,"South","South Atlantic","Virginia",32450
+2000,"South","South Atlantic","Virginia",30690
+2005,"South","South Atlantic","Virginia",30590
+2006,"South","South Atlantic","Virginia",31670
+2007,"South","South Atlantic","Virginia",32750
+2008,"South","South Atlantic","Virginia",31360
+2009,"South","South Atlantic","Virginia",30950
+2010,"South","South Atlantic","Virginia",30550
+2011,"South","South Atlantic","Virginia",29160
+2012,"South","South Atlantic","Virginia",29510
+2013,"South","South Atlantic","Virginia",29860
+2014,"South","South Atlantic","Virginia",24590
+2015,"South","South Atlantic","Virginia",23290
+2016,"South","South Atlantic","Virginia",21990
+2017,"South","South Atlantic","Virginia",20290
+1988,"West","Pacific","Washington",30890
+1992,"West","Pacific","Washington",33620
+1996,"West","Pacific","Washington",26960
+2000,"West","Pacific","Washington",26970
+2005,"West","Pacific","Washington",23680
+2006,"West","Pacific","Washington",24350
+2007,"West","Pacific","Washington",25030
+2008,"West","Pacific","Washington",24670
+2009,"West","Pacific","Washington",23530
+2010,"West","Pacific","Washington",22380
+2011,"West","Pacific","Washington",21830
+2012,"West","Pacific","Washington",20470
+2013,"West","Pacific","Washington",19100
+2014,"West","Pacific","Washington",19150
+2015,"West","Pacific","Washington",18340
+2016,"West","Pacific","Washington",17530
+2017,"West","Pacific","Washington",17760
+1988,"South","South Atlantic","West Virginia",4800
+1992,"South","South Atlantic","West Virginia",4460
+1996,"South","South Atlantic","West Virginia",3400
+2000,"South","South Atlantic","West Virginia",2930
+2005,"South","South Atlantic","West Virginia",2700
+2006,"South","South Atlantic","West Virginia",2880
+2007,"South","South Atlantic","West Virginia",3070
+2008,"South","South Atlantic","West Virginia",2680
+2009,"South","South Atlantic","West Virginia",3070
+2010,"South","South Atlantic","West Virginia",3460
+2011,"South","South Atlantic","West Virginia",3320
+2012,"South","South Atlantic","West Virginia",2800
+2013,"South","South Atlantic","West Virginia",2280
+2014,"South","South Atlantic","West Virginia",2280
+2015,"South","South Atlantic","West Virginia",2380
+2016,"South","South Atlantic","West Virginia",2490
+2017,"South","South Atlantic","West Virginia",2380
+1988,"Midwest","East North Central","Wisconsin",18580
+1992,"Midwest","East North Central","Wisconsin",16280
+1996,"Midwest","East North Central","Wisconsin",14980
+2000,"Midwest","East North Central","Wisconsin",12450
+2005,"Midwest","East North Central","Wisconsin",10920
+2006,"Midwest","East North Central","Wisconsin",10390
+2007,"Midwest","East North Central","Wisconsin",9870
+2008,"Midwest","East North Central","Wisconsin",9660
+2009,"Midwest","East North Central","Wisconsin",9420
+2010,"Midwest","East North Central","Wisconsin",9140
+2011,"Midwest","East North Central","Wisconsin",8660
+2012,"Midwest","East North Central","Wisconsin",8080
+2013,"Midwest","East North Central","Wisconsin",7510
+2014,"Midwest","East North Central","Wisconsin",7430
+2015,"Midwest","East North Central","Wisconsin",7360
+2016,"Midwest","East North Central","Wisconsin",7310
+2017,"Midwest","East North Central","Wisconsin",7540
+1988,"West","Mountain","Wyoming",1370
+1992,"West","Mountain","Wyoming",1390
+1996,"West","Mountain","Wyoming",1630
+2000,"West","Mountain","Wyoming",2090
+2005,"West","Mountain","Wyoming",1220
+2006,"West","Mountain","Wyoming",1200
+2007,"West","Mountain","Wyoming",1170
+2008,"West","Mountain","Wyoming",1060
+2009,"West","Mountain","Wyoming",1030
+2010,"West","Mountain","Wyoming",1010
+2011,"West","Mountain","Wyoming",1060
+2012,"West","Mountain","Wyoming",940
+2013,"West","Mountain","Wyoming",820
+2014,"West","Mountain","Wyoming",850
+2015,"West","Mountain","Wyoming",810
+2016,"West","Mountain","Wyoming",770
+2017,"West","Mountain","Wyoming",720

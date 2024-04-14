@@ -6,7 +6,7 @@ library(tidyverse)
 
 # Data clean 
 abortions_cdc <- read_csv("data/abortions_cdc.csv")
-states <- read_csv("data/raw/us census bureau regions and divisions.csv")
+states <- read_csv("data/us census bureau regions and divisions.csv")
 
 abortions_cdc <- abortions_cdc |> 
   filter(
@@ -30,3 +30,24 @@ ggplot(abortions_cdc, aes(x = year, y = Value, color = State)) +
   facet_wrap(~ Region) + 
   geom_line() +
   labs(x = "Year", y = "Value", color = "State")
+
+
+
+# Guttmacher ---------------------------------------------------------------------
+
+# Data clean 
+abortions_guttmacher <- read_csv("data/abortion_guttmacher.csv")
+states <- read_csv("data/us census bureau regions and divisions.csv")
+
+abortions_guttmacher <- abortions_guttmacher |> 
+  pivot_longer(cols = -year, names_to = "State", values_to = "Value") |> 
+  left_join(
+    states
+  )
+
+# Plot
+ggplot(abortions_guttmacher, aes(x = year, y = Value, color = State)) +
+  facet_wrap(~ Division) + 
+  geom_line() +
+  labs(x = "Year", y = "Value", color = "State")
+
