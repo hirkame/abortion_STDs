@@ -1,0 +1,448 @@
+"month","region","division","state","percentile","estimate"
+2023-01-15,"West","Pacific","Alaska",0.5,120
+2023-02-15,"West","Pacific","Alaska",0.5,130
+2023-03-15,"West","Pacific","Alaska",0.5,130
+2023-04-15,"West","Pacific","Alaska",0.5,100
+2023-05-15,"West","Pacific","Alaska",0.5,150
+2023-06-15,"West","Pacific","Alaska",0.5,130
+2023-07-15,"West","Pacific","Alaska",0.5,140
+2023-08-15,"West","Pacific","Alaska",0.5,140
+2023-09-15,"West","Pacific","Alaska",0.5,110
+2023-10-15,"West","Pacific","Alaska",0.5,150
+2023-11-15,"West","Pacific","Alaska",0.5,130
+2023-12-15,"West","Pacific","Alaska",0.5,100
+2023-01-15,"West","Mountain","Arizona",0.5,970
+2023-02-15,"West","Mountain","Arizona",0.5,830
+2023-03-15,"West","Mountain","Arizona",0.5,1020
+2023-04-15,"West","Mountain","Arizona",0.5,930
+2023-05-15,"West","Mountain","Arizona",0.5,940
+2023-06-15,"West","Mountain","Arizona",0.5,970
+2023-07-15,"West","Mountain","Arizona",0.5,1060
+2023-08-15,"West","Mountain","Arizona",0.5,1120
+2023-09-15,"West","Mountain","Arizona",0.5,1120
+2023-10-15,"West","Mountain","Arizona",0.5,1090
+2023-11-15,"West","Mountain","Arizona",0.5,990
+2023-12-15,"West","Mountain","Arizona",0.5,900
+2023-01-15,"West","Pacific","California",0.5,15980
+2023-02-15,"West","Pacific","California",0.5,14150
+2023-03-15,"West","Pacific","California",0.5,16140
+2023-04-15,"West","Pacific","California",0.5,14840
+2023-05-15,"West","Pacific","California",0.5,15710
+2023-06-15,"West","Pacific","California",0.5,15130
+2023-07-15,"West","Pacific","California",0.5,14250
+2023-08-15,"West","Pacific","California",0.5,15510
+2023-09-15,"West","Pacific","California",0.5,14120
+2023-10-15,"West","Pacific","California",0.5,14150
+2023-11-15,"West","Pacific","California",0.5,13840
+2023-12-15,"West","Pacific","California",0.5,14630
+2023-01-15,"West","Mountain","Colorado",0.5,2200
+2023-02-15,"West","Mountain","Colorado",0.5,2030
+2023-03-15,"West","Mountain","Colorado",0.5,2270
+2023-04-15,"West","Mountain","Colorado",0.5,2040
+2023-05-15,"West","Mountain","Colorado",0.5,2230
+2023-06-15,"West","Mountain","Colorado",0.5,2140
+2023-07-15,"West","Mountain","Colorado",0.5,2040
+2023-08-15,"West","Mountain","Colorado",0.5,2110
+2023-09-15,"West","Mountain","Colorado",0.5,1860
+2023-10-15,"West","Mountain","Colorado",0.5,1990
+2023-11-15,"West","Mountain","Colorado",0.5,1970
+2023-12-15,"West","Mountain","Colorado",0.5,1800
+2023-01-15,"Northeast","New England","Connecticut",0.5,1220
+2023-02-15,"Northeast","New England","Connecticut",0.5,1110
+2023-03-15,"Northeast","New England","Connecticut",0.5,1380
+2023-04-15,"Northeast","New England","Connecticut",0.5,1190
+2023-05-15,"Northeast","New England","Connecticut",0.5,1200
+2023-06-15,"Northeast","New England","Connecticut",0.5,1140
+2023-07-15,"Northeast","New England","Connecticut",0.5,1150
+2023-08-15,"Northeast","New England","Connecticut",0.5,1270
+2023-09-15,"Northeast","New England","Connecticut",0.5,1150
+2023-10-15,"Northeast","New England","Connecticut",0.5,1280
+2023-11-15,"Northeast","New England","Connecticut",0.5,1180
+2023-12-15,"Northeast","New England","Connecticut",0.5,1260
+2023-01-15,"South","South Atlantic","District of Columbia",0.5,810
+2023-02-15,"South","South Atlantic","District of Columbia",0.5,760
+2023-03-15,"South","South Atlantic","District of Columbia",0.5,930
+2023-04-15,"South","South Atlantic","District of Columbia",0.5,810
+2023-05-15,"South","South Atlantic","District of Columbia",0.5,830
+2023-06-15,"South","South Atlantic","District of Columbia",0.5,750
+2023-07-15,"South","South Atlantic","District of Columbia",0.5,800
+2023-08-15,"South","South Atlantic","District of Columbia",0.5,800
+2023-09-15,"South","South Atlantic","District of Columbia",0.5,660
+2023-10-15,"South","South Atlantic","District of Columbia",0.5,680
+2023-11-15,"South","South Atlantic","District of Columbia",0.5,650
+2023-12-15,"South","South Atlantic","District of Columbia",0.5,660
+2023-01-15,"South","South Atlantic","Delaware",0.5,290
+2023-02-15,"South","South Atlantic","Delaware",0.5,260
+2023-03-15,"South","South Atlantic","Delaware",0.5,320
+2023-04-15,"South","South Atlantic","Delaware",0.5,280
+2023-05-15,"South","South Atlantic","Delaware",0.5,310
+2023-06-15,"South","South Atlantic","Delaware",0.5,310
+2023-07-15,"South","South Atlantic","Delaware",0.5,280
+2023-08-15,"South","South Atlantic","Delaware",0.5,320
+2023-09-15,"South","South Atlantic","Delaware",0.5,260
+2023-10-15,"South","South Atlantic","Delaware",0.5,270
+2023-11-15,"South","South Atlantic","Delaware",0.5,290
+2023-12-15,"South","South Atlantic","Delaware",0.5,270
+2023-01-15,"South","South Atlantic","Florida",0.5,7320
+2023-02-15,"South","South Atlantic","Florida",0.5,6850
+2023-03-15,"South","South Atlantic","Florida",0.5,8070
+2023-04-15,"South","South Atlantic","Florida",0.5,7290
+2023-05-15,"South","South Atlantic","Florida",0.5,7080
+2023-06-15,"South","South Atlantic","Florida",0.5,7220
+2023-07-15,"South","South Atlantic","Florida",0.5,7190
+2023-08-15,"South","South Atlantic","Florida",0.5,7350
+2023-09-15,"South","South Atlantic","Florida",0.5,7350
+2023-10-15,"South","South Atlantic","Florida",0.5,7150
+2023-11-15,"South","South Atlantic","Florida",0.5,6680
+2023-12-15,"South","South Atlantic","Florida",0.5,6760
+2023-01-15,"South","South Atlantic","Georgia",0.5,2750
+2023-02-15,"South","South Atlantic","Georgia",0.5,2490
+2023-03-15,"South","South Atlantic","Georgia",0.5,3090
+2023-04-15,"South","South Atlantic","Georgia",0.5,2550
+2023-05-15,"South","South Atlantic","Georgia",0.5,2570
+2023-06-15,"South","South Atlantic","Georgia",0.5,2510
+2023-07-15,"South","South Atlantic","Georgia",0.5,2860
+2023-08-15,"South","South Atlantic","Georgia",0.5,2860
+2023-09-15,"South","South Atlantic","Georgia",0.5,2820
+2023-10-15,"South","South Atlantic","Georgia",0.5,2710
+2023-11-15,"South","South Atlantic","Georgia",0.5,2830
+2023-12-15,"South","South Atlantic","Georgia",0.5,2520
+2023-01-15,"West","Pacific","Hawaii",0.5,340
+2023-02-15,"West","Pacific","Hawaii",0.5,310
+2023-03-15,"West","Pacific","Hawaii",0.5,330
+2023-04-15,"West","Pacific","Hawaii",0.5,350
+2023-05-15,"West","Pacific","Hawaii",0.5,350
+2023-06-15,"West","Pacific","Hawaii",0.5,320
+2023-07-15,"West","Pacific","Hawaii",0.5,320
+2023-08-15,"West","Pacific","Hawaii",0.5,330
+2023-09-15,"West","Pacific","Hawaii",0.5,300
+2023-10-15,"West","Pacific","Hawaii",0.5,340
+2023-11-15,"West","Pacific","Hawaii",0.5,310
+2023-12-15,"West","Pacific","Hawaii",0.5,280
+2023-01-15,"Midwest","West North Central","Iowa",0.5,410
+2023-02-15,"Midwest","West North Central","Iowa",0.5,340
+2023-03-15,"Midwest","West North Central","Iowa",0.5,410
+2023-04-15,"Midwest","West North Central","Iowa",0.5,260
+2023-05-15,"Midwest","West North Central","Iowa",0.5,270
+2023-06-15,"Midwest","West North Central","Iowa",0.5,300
+2023-07-15,"Midwest","West North Central","Iowa",0.5,270
+2023-08-15,"Midwest","West North Central","Iowa",0.5,320
+2023-09-15,"Midwest","West North Central","Iowa",0.5,290
+2023-10-15,"Midwest","West North Central","Iowa",0.5,320
+2023-11-15,"Midwest","West North Central","Iowa",0.5,260
+2023-12-15,"Midwest","West North Central","Iowa",0.5,220
+2023-01-15,"Midwest","East North Central","Illinois",0.5,7630
+2023-02-15,"Midwest","East North Central","Illinois",0.5,7210
+2023-03-15,"Midwest","East North Central","Illinois",0.5,8280
+2023-04-15,"Midwest","East North Central","Illinois",0.5,7450
+2023-05-15,"Midwest","East North Central","Illinois",0.5,7690
+2023-06-15,"Midwest","East North Central","Illinois",0.5,7720
+2023-07-15,"Midwest","East North Central","Illinois",0.5,7290
+2023-08-15,"Midwest","East North Central","Illinois",0.5,8010
+2023-09-15,"Midwest","East North Central","Illinois",0.5,7340
+2023-10-15,"Midwest","East North Central","Illinois",0.5,7240
+2023-11-15,"Midwest","East North Central","Illinois",0.5,7320
+2023-12-15,"Midwest","East North Central","Illinois",0.5,7610
+2023-01-15,"Midwest","East North Central","Indiana",0.5,540
+2023-02-15,"Midwest","East North Central","Indiana",0.5,640
+2023-03-15,"Midwest","East North Central","Indiana",0.5,710
+2023-04-15,"Midwest","East North Central","Indiana",0.5,600
+2023-05-15,"Midwest","East North Central","Indiana",0.5,620
+2023-06-15,"Midwest","East North Central","Indiana",0.5,680
+2023-07-15,"Midwest","East North Central","Indiana",0.5,680
+2023-08-15,"Midwest","East North Central","Indiana",0.5,0
+2023-09-15,"Midwest","East North Central","Indiana",0.5,0
+2023-10-15,"Midwest","East North Central","Indiana",0.5,0
+2023-11-15,"Midwest","East North Central","Indiana",0.5,0
+2023-12-15,"Midwest","East North Central","Indiana",0.5,0
+2023-01-15,"Midwest","West North Central","Kansas",0.5,1550
+2023-02-15,"Midwest","West North Central","Kansas",0.5,1340
+2023-03-15,"Midwest","West North Central","Kansas",0.5,1360
+2023-04-15,"Midwest","West North Central","Kansas",0.5,1430
+2023-05-15,"Midwest","West North Central","Kansas",0.5,1470
+2023-06-15,"Midwest","West North Central","Kansas",0.5,1700
+2023-07-15,"Midwest","West North Central","Kansas",0.5,1320
+2023-08-15,"Midwest","West North Central","Kansas",0.5,1540
+2023-09-15,"Midwest","West North Central","Kansas",0.5,1300
+2023-10-15,"Midwest","West North Central","Kansas",0.5,1470
+2023-11-15,"Midwest","West North Central","Kansas",0.5,1570
+2023-12-15,"Midwest","West North Central","Kansas",0.5,1460
+2023-01-15,"Northeast","New England","Massachusetts",0.5,1800
+2023-02-15,"Northeast","New England","Massachusetts",0.5,1600
+2023-03-15,"Northeast","New England","Massachusetts",0.5,1980
+2023-04-15,"Northeast","New England","Massachusetts",0.5,1700
+2023-05-15,"Northeast","New England","Massachusetts",0.5,1800
+2023-06-15,"Northeast","New England","Massachusetts",0.5,1810
+2023-07-15,"Northeast","New England","Massachusetts",0.5,1680
+2023-08-15,"Northeast","New England","Massachusetts",0.5,1870
+2023-09-15,"Northeast","New England","Massachusetts",0.5,1720
+2023-10-15,"Northeast","New England","Massachusetts",0.5,1740
+2023-11-15,"Northeast","New England","Massachusetts",0.5,1780
+2023-12-15,"Northeast","New England","Massachusetts",0.5,1950
+2023-01-15,"South","South Atlantic","Maryland",0.5,3180
+2023-02-15,"South","South Atlantic","Maryland",0.5,3160
+2023-03-15,"South","South Atlantic","Maryland",0.5,3410
+2023-04-15,"South","South Atlantic","Maryland",0.5,3090
+2023-05-15,"South","South Atlantic","Maryland",0.5,3370
+2023-06-15,"South","South Atlantic","Maryland",0.5,3340
+2023-07-15,"South","South Atlantic","Maryland",0.5,3230
+2023-08-15,"South","South Atlantic","Maryland",0.5,3270
+2023-09-15,"South","South Atlantic","Maryland",0.5,2940
+2023-10-15,"South","South Atlantic","Maryland",0.5,3130
+2023-11-15,"South","South Atlantic","Maryland",0.5,3060
+2023-12-15,"South","South Atlantic","Maryland",0.5,3250
+2023-01-15,"Northeast","New England","Maine",0.5,200
+2023-02-15,"Northeast","New England","Maine",0.5,180
+2023-03-15,"Northeast","New England","Maine",0.5,240
+2023-04-15,"Northeast","New England","Maine",0.5,190
+2023-05-15,"Northeast","New England","Maine",0.5,200
+2023-06-15,"Northeast","New England","Maine",0.5,220
+2023-07-15,"Northeast","New England","Maine",0.5,200
+2023-08-15,"Northeast","New England","Maine",0.5,200
+2023-09-15,"Northeast","New England","Maine",0.5,180
+2023-10-15,"Northeast","New England","Maine",0.5,200
+2023-11-15,"Northeast","New England","Maine",0.5,180
+2023-12-15,"Northeast","New England","Maine",0.5,180
+2023-01-15,"Midwest","East North Central","Michigan",0.5,3000
+2023-02-15,"Midwest","East North Central","Michigan",0.5,2970
+2023-03-15,"Midwest","East North Central","Michigan",0.5,3380
+2023-04-15,"Midwest","East North Central","Michigan",0.5,3140
+2023-05-15,"Midwest","East North Central","Michigan",0.5,3100
+2023-06-15,"Midwest","East North Central","Michigan",0.5,3020
+2023-07-15,"Midwest","East North Central","Michigan",0.5,2890
+2023-08-15,"Midwest","East North Central","Michigan",0.5,3120
+2023-09-15,"Midwest","East North Central","Michigan",0.5,2990
+2023-10-15,"Midwest","East North Central","Michigan",0.5,3090
+2023-11-15,"Midwest","East North Central","Michigan",0.5,2880
+2023-12-15,"Midwest","East North Central","Michigan",0.5,2870
+2023-01-15,"Midwest","West North Central","Minnesota",0.5,1400
+2023-02-15,"Midwest","West North Central","Minnesota",0.5,1280
+2023-03-15,"Midwest","West North Central","Minnesota",0.5,1500
+2023-04-15,"Midwest","West North Central","Minnesota",0.5,1300
+2023-05-15,"Midwest","West North Central","Minnesota",0.5,1450
+2023-06-15,"Midwest","West North Central","Minnesota",0.5,1370
+2023-07-15,"Midwest","West North Central","Minnesota",0.5,1290
+2023-08-15,"Midwest","West North Central","Minnesota",0.5,1430
+2023-09-15,"Midwest","West North Central","Minnesota",0.5,1320
+2023-10-15,"Midwest","West North Central","Minnesota",0.5,1370
+2023-11-15,"Midwest","West North Central","Minnesota",0.5,1370
+2023-12-15,"Midwest","West North Central","Minnesota",0.5,1200
+2023-01-15,"West","Mountain","Montana",0.5,190
+2023-02-15,"West","Mountain","Montana",0.5,150
+2023-03-15,"West","Mountain","Montana",0.5,170
+2023-04-15,"West","Mountain","Montana",0.5,160
+2023-05-15,"West","Mountain","Montana",0.5,170
+2023-06-15,"West","Mountain","Montana",0.5,180
+2023-07-15,"West","Mountain","Montana",0.5,170
+2023-08-15,"West","Mountain","Montana",0.5,220
+2023-09-15,"West","Mountain","Montana",0.5,190
+2023-10-15,"West","Mountain","Montana",0.5,200
+2023-11-15,"West","Mountain","Montana",0.5,200
+2023-12-15,"West","Mountain","Montana",0.5,190
+2023-01-15,"South","South Atlantic","North Carolina",0.5,4110
+2023-02-15,"South","South Atlantic","North Carolina",0.5,3850
+2023-03-15,"South","South Atlantic","North Carolina",0.5,4420
+2023-04-15,"South","South Atlantic","North Carolina",0.5,3950
+2023-05-15,"South","South Atlantic","North Carolina",0.5,4070
+2023-06-15,"South","South Atlantic","North Carolina",0.5,4200
+2023-07-15,"South","South Atlantic","North Carolina",0.5,3150
+2023-08-15,"South","South Atlantic","North Carolina",0.5,3280
+2023-09-15,"South","South Atlantic","North Carolina",0.5,3830
+2023-10-15,"South","South Atlantic","North Carolina",0.5,3620
+2023-11-15,"South","South Atlantic","North Carolina",0.5,3120
+2023-12-15,"South","South Atlantic","North Carolina",0.5,3210
+2023-01-15,"Midwest","West North Central","Nebraska",0.5,230
+2023-02-15,"Midwest","West North Central","Nebraska",0.5,210
+2023-03-15,"Midwest","West North Central","Nebraska",0.5,230
+2023-04-15,"Midwest","West North Central","Nebraska",0.5,210
+2023-05-15,"Midwest","West North Central","Nebraska",0.5,240
+2023-06-15,"Midwest","West North Central","Nebraska",0.5,160
+2023-07-15,"Midwest","West North Central","Nebraska",0.5,220
+2023-08-15,"Midwest","West North Central","Nebraska",0.5,240
+2023-09-15,"Midwest","West North Central","Nebraska",0.5,190
+2023-10-15,"Midwest","West North Central","Nebraska",0.5,180
+2023-11-15,"Midwest","West North Central","Nebraska",0.5,230
+2023-12-15,"Midwest","West North Central","Nebraska",0.5,160
+2023-01-15,"Northeast","New England","New Hampshire",0.5,170
+2023-02-15,"Northeast","New England","New Hampshire",0.5,190
+2023-03-15,"Northeast","New England","New Hampshire",0.5,230
+2023-04-15,"Northeast","New England","New Hampshire",0.5,220
+2023-05-15,"Northeast","New England","New Hampshire",0.5,210
+2023-06-15,"Northeast","New England","New Hampshire",0.5,200
+2023-07-15,"Northeast","New England","New Hampshire",0.5,180
+2023-08-15,"Northeast","New England","New Hampshire",0.5,200
+2023-09-15,"Northeast","New England","New Hampshire",0.5,200
+2023-10-15,"Northeast","New England","New Hampshire",0.5,180
+2023-11-15,"Northeast","New England","New Hampshire",0.5,200
+2023-12-15,"Northeast","New England","New Hampshire",0.5,180
+2023-01-15,"Northeast","Middle Atlantic","New Jersey",0.5,5110
+2023-02-15,"Northeast","Middle Atlantic","New Jersey",0.5,4620
+2023-03-15,"Northeast","Middle Atlantic","New Jersey",0.5,5540
+2023-04-15,"Northeast","Middle Atlantic","New Jersey",0.5,4820
+2023-05-15,"Northeast","Middle Atlantic","New Jersey",0.5,5230
+2023-06-15,"Northeast","Middle Atlantic","New Jersey",0.5,5170
+2023-07-15,"Northeast","Middle Atlantic","New Jersey",0.5,4780
+2023-08-15,"Northeast","Middle Atlantic","New Jersey",0.5,5060
+2023-09-15,"Northeast","Middle Atlantic","New Jersey",0.5,4370
+2023-10-15,"Northeast","Middle Atlantic","New Jersey",0.5,4500
+2023-11-15,"Northeast","Middle Atlantic","New Jersey",0.5,4420
+2023-12-15,"Northeast","Middle Atlantic","New Jersey",0.5,4820
+2023-01-15,"West","Mountain","New Mexico",0.5,1970
+2023-02-15,"West","Mountain","New Mexico",0.5,1770
+2023-03-15,"West","Mountain","New Mexico",0.5,2020
+2023-04-15,"West","Mountain","New Mexico",0.5,1820
+2023-05-15,"West","Mountain","New Mexico",0.5,1770
+2023-06-15,"West","Mountain","New Mexico",0.5,1980
+2023-07-15,"West","Mountain","New Mexico",0.5,1750
+2023-08-15,"West","Mountain","New Mexico",0.5,1690
+2023-09-15,"West","Mountain","New Mexico",0.5,1580
+2023-10-15,"West","Mountain","New Mexico",0.5,1480
+2023-11-15,"West","Mountain","New Mexico",0.5,1540
+2023-12-15,"West","Mountain","New Mexico",0.5,1570
+2023-01-15,"West","Mountain","Nevada",0.5,1430
+2023-02-15,"West","Mountain","Nevada",0.5,1330
+2023-03-15,"West","Mountain","Nevada",0.5,1500
+2023-04-15,"West","Mountain","Nevada",0.5,1330
+2023-05-15,"West","Mountain","Nevada",0.5,1330
+2023-06-15,"West","Mountain","Nevada",0.5,1300
+2023-07-15,"West","Mountain","Nevada",0.5,1210
+2023-08-15,"West","Mountain","Nevada",0.5,1350
+2023-09-15,"West","Mountain","Nevada",0.5,1200
+2023-10-15,"West","Mountain","Nevada",0.5,1310
+2023-11-15,"West","Mountain","Nevada",0.5,1260
+2023-12-15,"West","Mountain","Nevada",0.5,1230
+2023-01-15,"Northeast","Middle Atlantic","New York",0.5,11320
+2023-02-15,"Northeast","Middle Atlantic","New York",0.5,10340
+2023-03-15,"Northeast","Middle Atlantic","New York",0.5,12080
+2023-04-15,"Northeast","Middle Atlantic","New York",0.5,10750
+2023-05-15,"Northeast","Middle Atlantic","New York",0.5,11030
+2023-06-15,"Northeast","Middle Atlantic","New York",0.5,11100
+2023-07-15,"Northeast","Middle Atlantic","New York",0.5,10730
+2023-08-15,"Northeast","Middle Atlantic","New York",0.5,11360
+2023-09-15,"Northeast","Middle Atlantic","New York",0.5,10740
+2023-10-15,"Northeast","Middle Atlantic","New York",0.5,10570
+2023-11-15,"Northeast","Middle Atlantic","New York",0.5,10430
+2023-12-15,"Northeast","Middle Atlantic","New York",0.5,10980
+2023-01-15,"Midwest","East North Central","Ohio",0.5,1850
+2023-02-15,"Midwest","East North Central","Ohio",0.5,1850
+2023-03-15,"Midwest","East North Central","Ohio",0.5,2030
+2023-04-15,"Midwest","East North Central","Ohio",0.5,1750
+2023-05-15,"Midwest","East North Central","Ohio",0.5,1850
+2023-06-15,"Midwest","East North Central","Ohio",0.5,1850
+2023-07-15,"Midwest","East North Central","Ohio",0.5,2020
+2023-08-15,"Midwest","East North Central","Ohio",0.5,2370
+2023-09-15,"Midwest","East North Central","Ohio",0.5,2030
+2023-10-15,"Midwest","East North Central","Ohio",0.5,2220
+2023-11-15,"Midwest","East North Central","Ohio",0.5,2030
+2023-12-15,"Midwest","East North Central","Ohio",0.5,1900
+2023-01-15,"West","Pacific","Oregon",0.5,1020
+2023-02-15,"West","Pacific","Oregon",0.5,870
+2023-03-15,"West","Pacific","Oregon",0.5,1100
+2023-04-15,"West","Pacific","Oregon",0.5,930
+2023-05-15,"West","Pacific","Oregon",0.5,1040
+2023-06-15,"West","Pacific","Oregon",0.5,1050
+2023-07-15,"West","Pacific","Oregon",0.5,930
+2023-08-15,"West","Pacific","Oregon",0.5,1050
+2023-09-15,"West","Pacific","Oregon",0.5,920
+2023-10-15,"West","Pacific","Oregon",0.5,980
+2023-11-15,"West","Pacific","Oregon",0.5,890
+2023-12-15,"West","Pacific","Oregon",0.5,870
+2023-01-15,"Northeast","Middle Atlantic","Pennsylvania",0.5,2880
+2023-02-15,"Northeast","Middle Atlantic","Pennsylvania",0.5,3060
+2023-03-15,"Northeast","Middle Atlantic","Pennsylvania",0.5,3580
+2023-04-15,"Northeast","Middle Atlantic","Pennsylvania",0.5,3050
+2023-05-15,"Northeast","Middle Atlantic","Pennsylvania",0.5,3080
+2023-06-15,"Northeast","Middle Atlantic","Pennsylvania",0.5,3220
+2023-07-15,"Northeast","Middle Atlantic","Pennsylvania",0.5,3060
+2023-08-15,"Northeast","Middle Atlantic","Pennsylvania",0.5,3270
+2023-09-15,"Northeast","Middle Atlantic","Pennsylvania",0.5,3000
+2023-10-15,"Northeast","Middle Atlantic","Pennsylvania",0.5,2880
+2023-11-15,"Northeast","Middle Atlantic","Pennsylvania",0.5,2810
+2023-12-15,"Northeast","Middle Atlantic","Pennsylvania",0.5,2950
+2023-01-15,"Northeast","New England","Rhode Island",0.5,310
+2023-02-15,"Northeast","New England","Rhode Island",0.5,260
+2023-03-15,"Northeast","New England","Rhode Island",0.5,330
+2023-04-15,"Northeast","New England","Rhode Island",0.5,240
+2023-05-15,"Northeast","New England","Rhode Island",0.5,230
+2023-06-15,"Northeast","New England","Rhode Island",0.5,220
+2023-07-15,"Northeast","New England","Rhode Island",0.5,180
+2023-08-15,"Northeast","New England","Rhode Island",0.5,210
+2023-09-15,"Northeast","New England","Rhode Island",0.5,210
+2023-10-15,"Northeast","New England","Rhode Island",0.5,230
+2023-11-15,"Northeast","New England","Rhode Island",0.5,240
+2023-12-15,"Northeast","New England","Rhode Island",0.5,220
+2023-01-15,"South","South Atlantic","South Carolina",0.5,1010
+2023-02-15,"South","South Atlantic","South Carolina",0.5,1030
+2023-03-15,"South","South Atlantic","South Carolina",0.5,1100
+2023-04-15,"South","South Atlantic","South Carolina",0.5,960
+2023-05-15,"South","South Atlantic","South Carolina",0.5,890
+2023-06-15,"South","South Atlantic","South Carolina",0.5,930
+2023-07-15,"South","South Atlantic","South Carolina",0.5,970
+2023-08-15,"South","South Atlantic","South Carolina",0.5,870
+2023-09-15,"South","South Atlantic","South Carolina",0.5,250
+2023-10-15,"South","South Atlantic","South Carolina",0.5,310
+2023-11-15,"South","South Atlantic","South Carolina",0.5,290
+2023-12-15,"South","South Atlantic","South Carolina",0.5,210
+2023-01-15,"West","Mountain","Utah",0.5,360
+2023-02-15,"West","Mountain","Utah",0.5,340
+2023-03-15,"West","Mountain","Utah",0.5,400
+2023-04-15,"West","Mountain","Utah",0.5,340
+2023-05-15,"West","Mountain","Utah",0.5,300
+2023-06-15,"West","Mountain","Utah",0.5,320
+2023-07-15,"West","Mountain","Utah",0.5,360
+2023-08-15,"West","Mountain","Utah",0.5,330
+2023-09-15,"West","Mountain","Utah",0.5,350
+2023-10-15,"West","Mountain","Utah",0.5,330
+2023-11-15,"West","Mountain","Utah",0.5,330
+2023-12-15,"West","Mountain","Utah",0.5,340
+2023-01-15,"South","South Atlantic","Virginia",0.5,2960
+2023-02-15,"South","South Atlantic","Virginia",0.5,2600
+2023-03-15,"South","South Atlantic","Virginia",0.5,2960
+2023-04-15,"South","South Atlantic","Virginia",0.5,2660
+2023-05-15,"South","South Atlantic","Virginia",0.5,2590
+2023-06-15,"South","South Atlantic","Virginia",0.5,2850
+2023-07-15,"South","South Atlantic","Virginia",0.5,2610
+2023-08-15,"South","South Atlantic","Virginia",0.5,2770
+2023-09-15,"South","South Atlantic","Virginia",0.5,2670
+2023-10-15,"South","South Atlantic","Virginia",0.5,2740
+2023-11-15,"South","South Atlantic","Virginia",0.5,2680
+2023-12-15,"South","South Atlantic","Virginia",0.5,2800
+2023-01-15,"Northeast","New England","Vermont",0.5,160
+2023-02-15,"Northeast","New England","Vermont",0.5,110
+2023-03-15,"Northeast","New England","Vermont",0.5,150
+2023-04-15,"Northeast","New England","Vermont",0.5,110
+2023-05-15,"Northeast","New England","Vermont",0.5,160
+2023-06-15,"Northeast","New England","Vermont",0.5,110
+2023-07-15,"Northeast","New England","Vermont",0.5,100
+2023-08-15,"Northeast","New England","Vermont",0.5,120
+2023-09-15,"Northeast","New England","Vermont",0.5,110
+2023-10-15,"Northeast","New England","Vermont",0.5,120
+2023-11-15,"Northeast","New England","Vermont",0.5,110
+2023-12-15,"Northeast","New England","Vermont",0.5,110
+2023-01-15,"West","Pacific","Washington",0.5,2100
+2023-02-15,"West","Pacific","Washington",0.5,1950
+2023-03-15,"West","Pacific","Washington",0.5,2150
+2023-04-15,"West","Pacific","Washington",0.5,1900
+2023-05-15,"West","Pacific","Washington",0.5,2060
+2023-06-15,"West","Pacific","Washington",0.5,2040
+2023-07-15,"West","Pacific","Washington",0.5,1930
+2023-08-15,"West","Pacific","Washington",0.5,2120
+2023-09-15,"West","Pacific","Washington",0.5,1870
+2023-10-15,"West","Pacific","Washington",0.5,1930
+2023-11-15,"West","Pacific","Washington",0.5,1950
+2023-12-15,"West","Pacific","Washington",0.5,1860
+2023-01-15,"West","Mountain","Wyoming",0.5,20
+2023-02-15,"West","Mountain","Wyoming",0.5,20
+2023-03-15,"West","Mountain","Wyoming",0.5,20
+2023-04-15,"West","Mountain","Wyoming",0.5,20
+2023-05-15,"West","Mountain","Wyoming",0.5,40
+2023-06-15,"West","Mountain","Wyoming",0.5,40
+2023-07-15,"West","Mountain","Wyoming",0.5,20
+2023-08-15,"West","Mountain","Wyoming",0.5,40
+2023-09-15,"West","Mountain","Wyoming",0.5,30
+2023-10-15,"West","Mountain","Wyoming",0.5,40
+2023-11-15,"West","Mountain","Wyoming",0.5,40
+2023-12-15,"West","Mountain","Wyoming",0.5,40
+2023-10-15,"Midwest","East North Central","Wisconsin",0.5,270
+2023-11-15,"Midwest","East North Central","Wisconsin",0.5,330
+2023-12-15,"Midwest","East North Central","Wisconsin",0.5,260
