@@ -1,6 +1,6 @@
 # Pipeline 
 
-1. `scrape.R`: Scrape tables on the website and save them
+1. `scrape.R`: Scrape tables from [the County Health Rankings & Roadmaps](https://www.countyhealthrankings.org/health-data/health-factors/health-behaviors/sexual-activity/sexually-transmitted-infections?year=2024) and save them locally
 
 # Data source 
 
