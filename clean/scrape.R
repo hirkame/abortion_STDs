@@ -3,7 +3,7 @@ library(rvest)
 library(readr)
 
 # State code
-state_fips_master <- read_csv("data/state_fips_master.csv")
+state_fips_master <- read_csv("data/county_fips_master.csv")
 
 # Function to navigate to the given URL and wait for the page to load
 navigate_and_wait <- function(driver, url) {
@@ -37,7 +37,7 @@ rD <- rsDriver(browser = "firefox", port = 4555L, verbose = F, chromever = NULL)
 remDr <- rD[["client"]]
 
 # Loop through years and states
-for (state in state_fips_master$fips) {
+for (state in unique(state_fips_master$state)[!is.na(unique(state_fips_master$state))]) {
   for (year in 2011:2024) {
     # Define the URL of the website
     url <- paste0("https://www.countyhealthrankings.org/health-data/health-factors/health-behaviors/sexual-activity/sexually-transmitted-infections?year=",
