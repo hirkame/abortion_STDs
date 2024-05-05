@@ -5,8 +5,8 @@ library(sf)
 # Read data
 df_std_state <- read_rds("data/stds_state.rds")
 df_std_county <- read_rds("data/stds_county.rds")
-states <- st_read("data/map/cb_2018_us_state_500k.shp")
-county <- st_read("data/map/tl_2018_us_county.shp")
+states <- st_read("data/map/cb_2018_us_state_500k/cb_2018_us_state_500k.shp")
+county <- st_read("data/map/cb_2018_us_county_500k/cb_2018_us_county_500k.shp")
 
 
 # Adjust data
