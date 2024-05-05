@@ -2,7 +2,7 @@ library(tidyverse)
 
 
 # Read data
-df_std <- read_rds("data/stds.rds")
+df_std <- read_rds("data/stds_county.rds")
 county_fips_master <- read.csv("data/county_fips_master.csv")
 
 
