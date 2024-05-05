@@ -8,6 +8,7 @@ df_std_county <- read_rds("data/stds_county.rds")
 states <- st_read("data/map/cb_2018_us_state_500k.shp")
 county <- st_read("data/map/tl_2018_us_county.shp")
 
+
 # Adjust data
 df_std_state <- df_std_state |> 
   mutate(
