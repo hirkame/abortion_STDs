@@ -9,15 +9,26 @@ states <- st_read("data/map/cb_2018_us_state_500k/cb_2018_us_state_500k.shp")
 county <- st_read("data/map/cb_2018_us_county_500k/cb_2018_us_county_500k.shp")
 
 
-# Adjust data
+# Calculate growth rates of chlamydia cases
 df_std_state <- df_std_state |> 
   mutate(
     fips_state = sprintf("%02d", fips_state)
-  )  
+  ) |> 
+  mutate(
+    growth_rate = (countyvalue - lag(countyvalue))/lag(countyvalue)*100,
+    .by = "fips_state"
+  ) |> 
+  filter(!is.na(growth_rate))
+
 df_std_county <- df_std_county |> 
   mutate(
     fips = sprintf("%05d", fips)
-  )  
+  ) |> 
+  mutate(
+    growth_rate = (countyvalue - lag(countyvalue))/lag(countyvalue)*100,
+    .by = "fips"
+  ) |> 
+  filter(!is.na(growth_rate))
 
 
 # Remove Alaska and Hawaii
@@ -25,6 +36,7 @@ states <- states |>
   filter(!STATEFP %in% c('02', '15', '66'))
 county <- county |> 
   filter(!STATEFP %in% c('02', '15', '66')) 
+
 
 # Merge data
 states <- states |> 
@@ -39,19 +51,45 @@ states <- states |>
   filter(year %in% 2021:2024) 
 
 ggplot() + 
-  geom_sf(data = states, aes(fill = countyvalue), lty = 0) +
-  scale_fill_distiller(palette = "RdPu", direction = 1) + 
-  facet_wrap(~ year)
+  geom_sf(data = states, aes(fill = growth_rate), lty = 0) +
+  scale_fill_gradient(
+    high = "red",
+    mid = "white",
+    low = "blue"
+  ) + 
+  facet_wrap(~ year) +
+  labs(title = "Growth of new chlamydia cases per 100,000 people (State, %)") + 
+  theme(
+    text = element_text(size = 8), 
+    strip.text = element_text(face="bold"),
+    strip.background = element_blank(),
+    plot.title = element_text(size=12)
+  )
+
+ggsave("describe/state_growth.png", width = 20, height = 12, units = "cm")
 
 
 # County-level  -----------------------------------------------------------
 county <- county |> 
-  filter(year %in% 2021:2024) 
+  filter(year %in% 2021:2024)
   
 ggplot() + 
-  geom_sf(data = county, aes(fill = countyvalue), lty = 0) +
-  scale_fill_distiller(palette = "RdPu", direction = 1) + 
-  facet_wrap(~ year)
+  geom_sf(data = county, aes(fill = growth_rate), lty = 0) +
+  scale_fill_gradient2(
+    high = "red",
+    mid = "white",
+    low = "blue"
+  ) + 
+  labs(title = "Growth of new chlamydia cases per 100,000 people (County, %)") +
+  facet_wrap(~ year)  + 
+  theme(
+    text = element_text(size = 8), 
+    strip.text = element_text(face="bold"),
+    strip.background = element_blank(),
+    plot.title = element_text(size=12)
+  )
+
+ggsave("describe/county_growth.png", width = 20, height = 12, units = "cm")
 
   
 
