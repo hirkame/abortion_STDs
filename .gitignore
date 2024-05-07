@@ -4,3 +4,5 @@
 data/sexually-transmitted-infections/
 data/teen-births/
 data/map/
+*.dta
+*.rds
