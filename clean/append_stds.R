@@ -22,7 +22,7 @@ for (year in 2011:2024) {
         "index",
         "county_name",
         "chlamydiacases",
-        "countyvalue",
+        "chlamydiacases_rate",
         "zscore"
       )
     )
@@ -40,7 +40,7 @@ for (year in 2011:2024) {
             str_replace(",", "") |>
             as.numeric()
         },
-        .cols = c(chlamydiacases, countyvalue)
+        .cols = c(chlamydiacases, chlamydiacases_rate)
       ))
     
     # State
@@ -56,7 +56,7 @@ for (year in 2011:2024) {
             str_replace(",", "") |>
             as.numeric()
         },
-        .cols = c(chlamydiacases, countyvalue)
+        .cols = c(chlamydiacases, chlamydiacases_rate)
       ))
     
     # Append data frame to the list
@@ -93,7 +93,7 @@ df_county <- df_county |>
       fips_state = 2,
       county_name = "Valdez-Cordova",
       chlamydiacases = sum(df_county[df_county$county_name %in% c("Chugach", "Copper River")]$chlamydiacases),
-      countyvalue = sum(df_county[df_county$county_name %in% c("Chugach", "Copper River")]$countyvalue),
+      chlamydiacases_rate = sum(df_county[df_county$county_name %in% c("Chugach", "Copper River")]$chlamydiacases_rate),
       zscore = NA
     )
   ) |>
